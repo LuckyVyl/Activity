@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparison Tasks</h1>
+        
+        <section>
+            <h2>Task 1</h2>
+            <input type="text" id="task1Value1" placeholder="Enter first value">
+            <input type="text" id="task1Value2" placeholder="Enter second value">
+            <button onclick="strictEquality()">Compare Values</button>
+            <p id="task1Result"></p>
+        </section>
+        
+        <hr>
+        <section>
+            <h2>Task 2</h2>
+            <input type="text" id="task2Value1" placeholder="Enter first value">
+            <input type="text" id="task2Value2" placeholder="Enter second value">
+            <button onclick="looseStrictInequality()">Compare Loose and Strict</button>
+            <p id="task2Result"></p>
+        </section>
+        <hr>
+      
+        <section>
+            <h2>Task 3</h2>
+            <input type="number" id="task3Value1" placeholder="Enter first number">
+            <input type="number" id="task3Value2" placeholder="Enter second number">
+            <button onclick="greaterThanComparison()">Compare Greater Than</button>
+            <p id="task3Result"></p>
+        </section>
+        <hr>
+       
+        <section>
+            <h2>Task 4</h2>
+            <input type="number" id="task4Value1" placeholder="Enter first number">
+            <input type="number" id="task4Value2" placeholder="Enter second number">
+            <button onclick="greaterThanOrEqualComparison()">Compare Greater Than or Equal</button>
+            <p id="task4Result"></p>
+        </section>
+        
+        <hr>
+        <section>
+            <h2>Task 5 </h2>
+            <input type="number" id="task5Value1" placeholder="Enter first number">
+            <input type="number" id="task5Value2" placeholder="Enter second number">
+            <button onclick="lessThanComparison()">Compare Less Than</button>
+            <p id="task5Result"></p>
+        </section>
+        <hr>
+        
+        <section>
+            <h2>Task 6</h2>
+            <input type="number" id="task6Value1" placeholder="Enter first number">
+            <input type="number" id="task6Value2" placeholder="Enter second number">
+            <button onclick="lessThanOrEqualComparison()">Compare Less Than or Equal</button>
+            <p id="task6Result"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
